@@ -1,0 +1,91 @@
+/* Container */
+.contact-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: auto;
+}
+
+/* Hero */
+.contact-hero {
+  text-align: center;
+  padding: 60px 10px;
+  background-image: url("https://images.unsplash.com/photo-1540574163026-643ea20ade25");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 450px;
+}
+.contact-hero h1 {
+  font-size: 42px;
+  margin: 0;
+}
+.brand-color {
+  color: #ffb703;
+
+}
+.contact-hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Content */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+/* Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+.contact-form h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffb703;
+}
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.contact-form form button {
+  color: #ffb703;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #ffb703;
+}
+.contact-form form button:hover {
+  background:  #ffb703;
+}
+
+/* Contact Cards */
+.contact-cards {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-card-c {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.info-card-c h3 {
+  color: #ffb703;
+  margin-bottom: 10px;
+}
