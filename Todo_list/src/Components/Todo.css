@@ -1,0 +1,120 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container{
+    border-radius: 10px;
+    width: 700px;
+    animation: fadeIn 0.6s ease-in-out;
+    background-color: #fff;
+    padding: 30px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Form Styling */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+input{
+    width: 80%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s ease;
+    font-size: 14px;
+}
+
+input:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 10px rgba(102,126,234,0.4);
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Table Styling */
+table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th{
+    background: #667eea;
+    color: white;
+    padding: 12px;
+    font-weight: 500;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover{
+    background: #f5f7ff;
+    transition: 0.3s ease;
+}
+
+/* Delete Button Styling */
+td button{
+    background: #ff4d4d;
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+td button:hover{
+    background: #e60000;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
