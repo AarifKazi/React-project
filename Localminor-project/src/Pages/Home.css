@@ -1,0 +1,128 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input */
+form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Button */
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ff7a18;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #ff4b2b;
+}
+
+/* List */
+.list {
+  margin-top: 20px;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Text */
+.card span {
+  font-size: 14px;
+}
+
+/* Buttons */
+.btns {
+  display: flex;
+  gap: 5px;
+}
+
+.btns button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+/* Edit Button */
+.btns button:first-child {
+  background: #00c9a7;
+  color: white;
+}
+
+.btns button:first-child:hover {
+  background: #00a386;
+}
+
+/* Delete Button */
+.btns button:last-child {
+  background: #ff4b5c;
+  color: white;
+}
+
+.btns button:last-child:hover {
+  background: #d63031;
+}
+
+/* Empty text */
+.list p {
+  text-align: center;
+  opacity: 0.8;
+}
