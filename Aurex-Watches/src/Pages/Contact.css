@@ -1,0 +1,131 @@
+
+.contact {
+  background: #000;
+  color: white;
+  font-family: Arial;
+}
+
+/* HERO */
+.contact-hero {
+  height: 60vh;
+  background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay h1 {
+  font-size: 50px;
+  color: #FFD700;
+}
+
+/* MAIN SECTION */
+.contact-section {
+  padding: 80px 10%;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+/* INFO */
+.contact-info {
+  flex: 1;
+}
+
+.contact-info h2 {
+  color: #FFD700;
+}
+
+.info-box {
+  margin-top: 20px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.info-box:hover {
+  transform: translateX(10px);
+}
+
+/* FORM */
+.contact-form-box {
+  flex: 1;
+  background: #111;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,215,0,0.2);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  background: #000;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 8px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  background: #FFD700;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #FFD700;
+}
+
+/* CTA */
+.contact-cta {
+  text-align: center;
+  padding: 80px 10%;
+  background: linear-gradient(120deg, #111, #000);
+}
+
+.contact-cta h2 {
+  color: #FFD700;
+}
+
+.contact-cta button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #FFD700;
+  border: none;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+}

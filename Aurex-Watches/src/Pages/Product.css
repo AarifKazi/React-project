@@ -1,0 +1,134 @@
+✅ FINAL MODERN CARD + LAYOUT CSS
+/* ================= PAGE BACKGROUND ================= */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* WRAPPER (important for layout) */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  padding: 20px 0;
+}
+.main-container{
+    background-color: #1c1b1b;
+}
+/* ================= MODERN CARD ================= */
+
+.watch-data {
+  width: 260px;
+  background: #0c0c0c;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMAGE */
+.watch-data img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+/* CONTENT BOX */
+.watch-data h2,
+.watch-data p,
+.add-cart-btn {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* NAME */
+.watch-data h2 {
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* PRICE */
+.watch-data p {
+  color: #FFD700;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* HOVER IMAGE ZOOM */
+.watch-data:hover img {
+  transform: scale(1.08);
+}
+
+/* CARD HOVER */
+.watch-data:hover {
+  transform: translateY(-8px);
+}
+
+/* BOTTOM SLIDE PANEL */
+
+.watch-data:hover::after {
+  height: 60%;
+}
+
+/* BUTTON HIDE DEFAULT */
+/* ADD TO CART BUTTON - MODERN STYLE */
+.add-cart-btn {
+  width: calc(100% - 30px);
+  margin: 15px;
+  padding: 12px;
+  border: 1px solid #FFD700;
+  border-radius: 30px;
+  background: transparent;
+  color: #FFD700;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER FILL EFFECT */
+
+
+/* TEXT ABOVE */
+.add-cart-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* HOVER */
+.add-cart-btn:hover::before {
+  transform: scaleX(1);
+}
+
+.add-cart-btn:hover {
+    background-color: #FFD700;
+  color: #000;
+}
+
+/* CLICK */
+.add-cart-btn:active {
+  transform: scale(0.95);
+}
+
+
+
+/* SMALL PREMIUM BORDER */
+.watch-data {
+  border: 1px solid #111;
+}
+
+.watch-data:hover {
+  border-color: #FFD700;
+}
