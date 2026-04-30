@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "name": "fardin",
+      "city": "ahmadabad",
+      "gender": "male",
+      "id": "zgIPDy5FVQw"
+    },
+    {
+      "name": "kazi",
+      "city": "kalol",
+      "gender": "male",
+      "id": "0babbUAqq2g"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

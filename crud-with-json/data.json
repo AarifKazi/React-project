@@ -1,0 +1,17 @@
+{
+    "furniture":[
+       {
+        "id":"1",
+        "name":"sofa",
+        "price":"18000",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs03DMTNR_wt6BGRltrEcnhkAO5fQeLgERGw&s"
+       },
+       {
+        "id":"2",
+        "name":"chair",
+        "price":"1000",
+        "image":"https://media.istockphoto.com/id/2059474032/photo/blue-armchair.jpg?s=612x612&w=0&k=20&c=cDhbf0hwDROS6pljtYOSCEw43DlS7QcGeKNDu4xZyh0="
+       }
+       
+    ]
+}
