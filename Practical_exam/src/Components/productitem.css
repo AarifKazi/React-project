@@ -1,0 +1,159 @@
+/* producttable.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#020617;
+}
+
+.table-container{
+
+    width:100%;
+    min-height:100vh;
+
+    padding:40px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #020617,
+        #0f172a,
+        #111827
+    );
+}
+
+.table-container h1{
+
+    text-align:center;
+
+    color:#22d3ee;
+
+    font-size:45px;
+
+    margin-bottom:40px;
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:#111827;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+thead{
+
+    background:#06b6d4;
+
+    color:#0f172a;
+}
+
+th{
+
+    padding:18px;
+
+    font-size:18px;
+}
+
+td{
+
+    padding:18px;
+
+    text-align:center;
+
+    color:white;
+
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+td img{
+
+    width:70px;
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+}
+
+tr:hover{
+
+    background:#1e293b;
+}
+
+.edit-btn{
+
+    padding:10px 16px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#06b6d4;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.edit-btn:hover{
+
+    background:#22d3ee;
+
+    transform:scale(1.05);
+}
+
+.delete-btn{
+
+    padding:10px 16px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#ef4444;
+
+    color:white;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.delete-btn:hover{
+
+    background:#dc2626;
+
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+    .table-container{
+        overflow-x:auto;
+    }
+
+    table{
+        min-width:900px;
+    }
+}
