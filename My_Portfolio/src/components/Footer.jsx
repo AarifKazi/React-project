@@ -27,13 +27,13 @@ export default function Footer() {
 
           <div className="footer-actions">
             <div className="footer-socials">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="footer-social-link hover-target">
+              <a href="https://github.com/AarifKazi?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="footer-social-link hover-target">
                 <FaGithub size={19} />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="footer-social-link hover-target">
+              <a href="https://www.linkedin.com/in/aarif-kazi-5245232a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="footer-social-link hover-target">
                 <FaLinkedin size={19} />
               </a>
-              <a href="mailto:aarif@example.com" aria-label="Email" className="footer-social-link hover-target">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kaziaarif61@gmail.com" aria-label="Email" className="footer-social-link hover-target">
                 <FaEnvelope size={18} />
               </a>
             </div>
